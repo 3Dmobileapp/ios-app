@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					FA3DB48F1F25121100532E2B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G4N5PGKVTG;
 						ProvisioningStyle = Automatic;
 					};
 					FA3DB4A51F25121100532E2B = {
@@ -418,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4N5PGKVTG;
 				INFOPLIST_FILE = "3D Mobile App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-App";
@@ -430,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4N5PGKVTG;
 				INFOPLIST_FILE = "3D Mobile App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-App";
