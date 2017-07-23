@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3DB4941F25121100532E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB4931F25121100532E2B /* AppDelegate.swift */; };
+		FA3DB4961F25121100532E2B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB4951F25121100532E2B /* MasterViewController.swift */; };
+		FA3DB4981F25121100532E2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB4971F25121100532E2B /* DetailViewController.swift */; };
+		FA3DB49B1F25121100532E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3DB4991F25121100532E2B /* Main.storyboard */; };
+		FA3DB49D1F25121100532E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3DB49C1F25121100532E2B /* Assets.xcassets */; };
+		FA3DB4A01F25121100532E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3DB49E1F25121100532E2B /* LaunchScreen.storyboard */; };
+		FA3DB4AB1F25121100532E2B /* _D_Mobile_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB4AA1F25121100532E2B /* _D_Mobile_AppTests.swift */; };
+		FA3DB4B61F25121100532E2B /* _D_Mobile_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB4B51F25121100532E2B /* _D_Mobile_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3DB4A71F25121100532E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3DB4881F25121100532E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3DB48F1F25121100532E2B;
+			remoteInfo = "3D Mobile App";
+		};
+		FA3DB4B21F25121100532E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3DB4881F25121100532E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3DB48F1F25121100532E2B;
+			remoteInfo = "3D Mobile App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3DB4901F25121100532E2B /* 3D Mobile App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Mobile App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3DB4931F25121100532E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3DB4951F25121100532E2B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		FA3DB4971F25121100532E2B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA3DB49A1F25121100532E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3DB49C1F25121100532E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3DB49F1F25121100532E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3DB4A11F25121100532E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3DB4A61F25121100532E2B /* 3D Mobile AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D Mobile AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3DB4AA1F25121100532E2B /* _D_Mobile_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Mobile_AppTests.swift; sourceTree = "<group>"; };
+		FA3DB4AC1F25121100532E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3DB4B11F25121100532E2B /* 3D Mobile AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D Mobile AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3DB4B51F25121100532E2B /* _D_Mobile_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Mobile_AppUITests.swift; sourceTree = "<group>"; };
+		FA3DB4B71F25121100532E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3DB48D1F25121100532E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB4A31F25121100532E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB4AE1F25121100532E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3DB4871F25121100532E2B = {
+			isa = PBXGroup;
+			children = (
+				FA3DB4921F25121100532E2B /* 3D Mobile App */,
+				FA3DB4A91F25121100532E2B /* 3D Mobile AppTests */,
+				FA3DB4B41F25121100532E2B /* 3D Mobile AppUITests */,
+				FA3DB4911F25121100532E2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3DB4911F25121100532E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB4901F25121100532E2B /* 3D Mobile App.app */,
+				FA3DB4A61F25121100532E2B /* 3D Mobile AppTests.xctest */,
+				FA3DB4B11F25121100532E2B /* 3D Mobile AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3DB4921F25121100532E2B /* 3D Mobile App */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB4931F25121100532E2B /* AppDelegate.swift */,
+				FA3DB4951F25121100532E2B /* MasterViewController.swift */,
+				FA3DB4971F25121100532E2B /* DetailViewController.swift */,
+				FA3DB4991F25121100532E2B /* Main.storyboard */,
+				FA3DB49C1F25121100532E2B /* Assets.xcassets */,
+				FA3DB49E1F25121100532E2B /* LaunchScreen.storyboard */,
+				FA3DB4A11F25121100532E2B /* Info.plist */,
+			);
+			path = "3D Mobile App";
+			sourceTree = "<group>";
+		};
+		FA3DB4A91F25121100532E2B /* 3D Mobile AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB4AA1F25121100532E2B /* _D_Mobile_AppTests.swift */,
+				FA3DB4AC1F25121100532E2B /* Info.plist */,
+			);
+			path = "3D Mobile AppTests";
+			sourceTree = "<group>";
+		};
+		FA3DB4B41F25121100532E2B /* 3D Mobile AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB4B51F25121100532E2B /* _D_Mobile_AppUITests.swift */,
+				FA3DB4B71F25121100532E2B /* Info.plist */,
+			);
+			path = "3D Mobile AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3DB48F1F25121100532E2B /* 3D Mobile App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3DB4BA1F25121100532E2B /* Build configuration list for PBXNativeTarget "3D Mobile App" */;
+			buildPhases = (
+				FA3DB48C1F25121100532E2B /* Sources */,
+				FA3DB48D1F25121100532E2B /* Frameworks */,
+				FA3DB48E1F25121100532E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Mobile App";
+			productName = "3D Mobile App";
+			productReference = FA3DB4901F25121100532E2B /* 3D Mobile App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3DB4A51F25121100532E2B /* 3D Mobile AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3DB4BD1F25121100532E2B /* Build configuration list for PBXNativeTarget "3D Mobile AppTests" */;
+			buildPhases = (
+				FA3DB4A21F25121100532E2B /* Sources */,
+				FA3DB4A31F25121100532E2B /* Frameworks */,
+				FA3DB4A41F25121100532E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3DB4A81F25121100532E2B /* PBXTargetDependency */,
+			);
+			name = "3D Mobile AppTests";
+			productName = "3D Mobile AppTests";
+			productReference = FA3DB4A61F25121100532E2B /* 3D Mobile AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3DB4B01F25121100532E2B /* 3D Mobile AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3DB4C01F25121100532E2B /* Build configuration list for PBXNativeTarget "3D Mobile AppUITests" */;
+			buildPhases = (
+				FA3DB4AD1F25121100532E2B /* Sources */,
+				FA3DB4AE1F25121100532E2B /* Frameworks */,
+				FA3DB4AF1F25121100532E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3DB4B31F25121100532E2B /* PBXTargetDependency */,
+			);
+			name = "3D Mobile AppUITests";
+			productName = "3D Mobile AppUITests";
+			productReference = FA3DB4B11F25121100532E2B /* 3D Mobile AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3DB4881F25121100532E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Liu";
+				TargetAttributes = {
+					FA3DB48F1F25121100532E2B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FA3DB4A51F25121100532E2B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA3DB48F1F25121100532E2B;
+					};
+					FA3DB4B01F25121100532E2B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA3DB48F1F25121100532E2B;
+					};
+				};
+			};
+			buildConfigurationList = FA3DB48B1F25121100532E2B /* Build configuration list for PBXProject "3D Mobile App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3DB4871F25121100532E2B;
+			productRefGroup = FA3DB4911F25121100532E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3DB48F1F25121100532E2B /* 3D Mobile App */,
+				FA3DB4A51F25121100532E2B /* 3D Mobile AppTests */,
+				FA3DB4B01F25121100532E2B /* 3D Mobile AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3DB48E1F25121100532E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3DB4A01F25121100532E2B /* LaunchScreen.storyboard in Resources */,
+				FA3DB49D1F25121100532E2B /* Assets.xcassets in Resources */,
+				FA3DB49B1F25121100532E2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB4A41F25121100532E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB4AF1F25121100532E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3DB48C1F25121100532E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3DB4981F25121100532E2B /* DetailViewController.swift in Sources */,
+				FA3DB4961F25121100532E2B /* MasterViewController.swift in Sources */,
+				FA3DB4941F25121100532E2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB4A21F25121100532E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3DB4AB1F25121100532E2B /* _D_Mobile_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB4AD1F25121100532E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3DB4B61F25121100532E2B /* _D_Mobile_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3DB4A81F25121100532E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3DB48F1F25121100532E2B /* 3D Mobile App */;
+			targetProxy = FA3DB4A71F25121100532E2B /* PBXContainerItemProxy */;
+		};
+		FA3DB4B31F25121100532E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3DB48F1F25121100532E2B /* 3D Mobile App */;
+			targetProxy = FA3DB4B21F25121100532E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3DB4991F25121100532E2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3DB49A1F25121100532E2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3DB49E1F25121100532E2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3DB49F1F25121100532E2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3DB4B81F25121100532E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3DB4B91F25121100532E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3DB4BB1F25121100532E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "3D Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA3DB4BC1F25121100532E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "3D Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FA3DB4BE1F25121100532E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "3D Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Mobile App.app/3D Mobile App";
+			};
+			name = Debug;
+		};
+		FA3DB4BF1F25121100532E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "3D Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Mobile App.app/3D Mobile App";
+			};
+			name = Release;
+		};
+		FA3DB4C11F25121100532E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "3D Mobile AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "3D Mobile App";
+			};
+			name = Debug;
+		};
+		FA3DB4C21F25121100532E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "3D Mobile AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex.-D-Mobile-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "3D Mobile App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3DB48B1F25121100532E2B /* Build configuration list for PBXProject "3D Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB4B81F25121100532E2B /* Debug */,
+				FA3DB4B91F25121100532E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3DB4BA1F25121100532E2B /* Build configuration list for PBXNativeTarget "3D Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB4BB1F25121100532E2B /* Debug */,
+				FA3DB4BC1F25121100532E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA3DB4BD1F25121100532E2B /* Build configuration list for PBXNativeTarget "3D Mobile AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB4BE1F25121100532E2B /* Debug */,
+				FA3DB4BF1F25121100532E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA3DB4C01F25121100532E2B /* Build configuration list for PBXNativeTarget "3D Mobile AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB4C11F25121100532E2B /* Debug */,
+				FA3DB4C21F25121100532E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3DB4881F25121100532E2B /* Project object */;
+}
