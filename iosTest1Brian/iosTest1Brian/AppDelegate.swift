@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  iosTest1Brian
-//
-//  Created by Brian S on 7/23/17.
-//  Copyright © 2017 Brian S. All rights reserved.
-//
+
 
 import UIKit
 
