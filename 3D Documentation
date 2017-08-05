@@ -2,3 +2,5 @@
 July 23, 2017
   First app: launched!
   Messed with the storyboard files (Main.storyboard)
+August 5, 2017
+  Brian inspected Alex's podfile: a little unsure on how to incoporate Alamofire files into Xcode by using Podfile (Terminal)
