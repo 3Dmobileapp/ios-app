@@ -1,0 +1,6 @@
+framework module Pods_3DAppUITests {
+  umbrella header "Pods-3DAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
