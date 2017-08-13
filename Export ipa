@@ -1,0 +1,26 @@
+(Ad-hoc method) This is the finished process on how to use terminal command -xcodebuild to export an ipa without having an Apple Developer account. The original tutorial was from: https://stackoverflow.com/questions/39674237/xcrun-command-to-export-ipa-file-xcode8-for-iphoneos10-0. Full credit goes to robita, who wrote the partly finished answer that inspired me to finish it.
+Let's Start!
+Make an Xcode project and call it Test. Create a new plist file called exportOptions.plist. Under root, there is a line that says new item. On the right side, paste this code in.
+<xml version="1.0" encoding="UTF-8">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>method</key>
+    <string>ad-hoc</string>
+    <key>teamID</key>
+    <string>YOUR_TEAM_ID</string>
+    <key>uploadBitcode</key>
+    <true/>
+    <key>uploadSymbols</key>
+    <true/>
+  </dict>
+</plist>
+Don't worry about the coding errors. It works.
+Archive your app, and click "Show in Finder" when the application Organizer is opened.
+Rename the xcarchive to something more simple, without any spaces. Move the archive to an empty folder in anywhere you want (Desktop, Documents.) 
+Also move the exportOptions.plist in that folder too. Now, fire up Terminal. Copy and paste the code below. 
+xcodebuild -exportArchive
+-archivePath ~/YOUR NEW FOLDER'S DIRECTORY/YOUR NEW FOLDER/YOUR ARCHIVE NAME (IF YOUR ARCHIVE NAME HAS SPACES INSIDE OF IT THEN YOU WILL HAVE TO DO SOMEHTING ELSE)
+-exportPath ~/YOUR NEW FOLDER'S DIRECTORY/YOUR NEW FOLDER/MAKE UP A NAME FOR ANOTHER FOLDER WHERE THE IPA WILL BE STORED
+-exportOptionsPlist ~/YOUR NEW FOLDER'S DIRECTORY/YOUR NEW FOLDER/THE EXPORTOPTIONS.PLIST FILE
+Edit the UPPERCASE letters to your own "preference."
