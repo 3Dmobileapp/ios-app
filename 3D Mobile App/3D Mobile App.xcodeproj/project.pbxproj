@@ -38,15 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00963405AB8157DDDA34CDC4 /* Pods-3D Mobile AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppUITests/Pods-3D Mobile AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0638CA121543A3FA7BF52CE6 /* Pods-3D Mobile AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppUITests/Pods-3D Mobile AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		064C8688BE0EF26F3410183A /* Pods_3D_Mobile_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3D_Mobile_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08E13823ABEEEF61720B83FA /* Pods-3D Mobile AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppTests/Pods-3D Mobile AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		09849F1DEF05ECE01E05D576 /* Pods-3D Mobile App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile App/Pods-3D Mobile App.debug.xcconfig"; sourceTree = "<group>"; };
+		0758556D80BB2D623B28BD96 /* Pods-3D Mobile App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile App/Pods-3D Mobile App.debug.xcconfig"; sourceTree = "<group>"; };
 		0CAED8F8FBA40C35B4132C3D /* Pods_3D_Mobile_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3D_Mobile_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DCF890F33775A6373016DAF /* Pods-3D Mobile App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile App.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile App/Pods-3D Mobile App.release.xcconfig"; sourceTree = "<group>"; };
-		848932A610E18A672E264E9A /* Pods-3D Mobile AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppUITests/Pods-3D Mobile AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		85F027C56CBB0E08B703E410 /* Pods-3D Mobile AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppTests/Pods-3D Mobile AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2CAEEB63C4EB5479E81806 /* Pods-3D Mobile AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppTests/Pods-3D Mobile AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A95279CDF2885E154672E0DC /* Pods-3D Mobile AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppTests/Pods-3D Mobile AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B20374F981A097D659FDECB0 /* Pods_3D_Mobile_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3D_Mobile_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C09F780F3D501D4AE2C94D7F /* Pods-3D Mobile AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile AppUITests/Pods-3D Mobile AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA1D3C6E41E8818698B57B87 /* Pods-3D Mobile App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D Mobile App.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D Mobile App/Pods-3D Mobile App.release.xcconfig"; sourceTree = "<group>"; };
 		FA3DB4901F25121100532E2B /* 3D Mobile App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Mobile App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3DB4931F25121100532E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA3DB4951F25121100532E2B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -91,15 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19F11C9753FAB21DBA91D9FA /* Pods */ = {
+		406F387CC2707E223B9BCCD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				09849F1DEF05ECE01E05D576 /* Pods-3D Mobile App.debug.xcconfig */,
-				2DCF890F33775A6373016DAF /* Pods-3D Mobile App.release.xcconfig */,
-				85F027C56CBB0E08B703E410 /* Pods-3D Mobile AppTests.debug.xcconfig */,
-				08E13823ABEEEF61720B83FA /* Pods-3D Mobile AppTests.release.xcconfig */,
-				848932A610E18A672E264E9A /* Pods-3D Mobile AppUITests.debug.xcconfig */,
-				C09F780F3D501D4AE2C94D7F /* Pods-3D Mobile AppUITests.release.xcconfig */,
+				0758556D80BB2D623B28BD96 /* Pods-3D Mobile App.debug.xcconfig */,
+				BA1D3C6E41E8818698B57B87 /* Pods-3D Mobile App.release.xcconfig */,
+				A95279CDF2885E154672E0DC /* Pods-3D Mobile AppTests.debug.xcconfig */,
+				2E2CAEEB63C4EB5479E81806 /* Pods-3D Mobile AppTests.release.xcconfig */,
+				0638CA121543A3FA7BF52CE6 /* Pods-3D Mobile AppUITests.debug.xcconfig */,
+				00963405AB8157DDDA34CDC4 /* Pods-3D Mobile AppUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 				FA3DB4A91F25121100532E2B /* 3D Mobile AppTests */,
 				FA3DB4B41F25121100532E2B /* 3D Mobile AppUITests */,
 				FA3DB4911F25121100532E2B /* Products */,
-				19F11C9753FAB21DBA91D9FA /* Pods */,
 				77A1B99EAD1928D3B53A162A /* Frameworks */,
+				406F387CC2707E223B9BCCD0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -604,7 +604,7 @@
 		};
 		FA3DB4BB1F25121100532E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09849F1DEF05ECE01E05D576 /* Pods-3D Mobile App.debug.xcconfig */;
+			baseConfigurationReference = 0758556D80BB2D623B28BD96 /* Pods-3D Mobile App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G4N5PGKVTG;
@@ -618,7 +618,7 @@
 		};
 		FA3DB4BC1F25121100532E2B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DCF890F33775A6373016DAF /* Pods-3D Mobile App.release.xcconfig */;
+			baseConfigurationReference = BA1D3C6E41E8818698B57B87 /* Pods-3D Mobile App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G4N5PGKVTG;
@@ -632,7 +632,7 @@
 		};
 		FA3DB4BE1F25121100532E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85F027C56CBB0E08B703E410 /* Pods-3D Mobile AppTests.debug.xcconfig */;
+			baseConfigurationReference = A95279CDF2885E154672E0DC /* Pods-3D Mobile AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -647,7 +647,7 @@
 		};
 		FA3DB4BF1F25121100532E2B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08E13823ABEEEF61720B83FA /* Pods-3D Mobile AppTests.release.xcconfig */;
+			baseConfigurationReference = 2E2CAEEB63C4EB5479E81806 /* Pods-3D Mobile AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -662,7 +662,7 @@
 		};
 		FA3DB4C11F25121100532E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 848932A610E18A672E264E9A /* Pods-3D Mobile AppUITests.debug.xcconfig */;
+			baseConfigurationReference = 0638CA121543A3FA7BF52CE6 /* Pods-3D Mobile AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "3D Mobile AppUITests/Info.plist";
@@ -676,7 +676,7 @@
 		};
 		FA3DB4C21F25121100532E2B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C09F780F3D501D4AE2C94D7F /* Pods-3D Mobile AppUITests.release.xcconfig */;
+			baseConfigurationReference = 00963405AB8157DDDA34CDC4 /* Pods-3D Mobile AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "3D Mobile AppUITests/Info.plist";
