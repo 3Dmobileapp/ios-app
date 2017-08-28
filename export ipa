@@ -1,0 +1,26 @@
+1. copy modified files to a brand new xcode project
+2. select generic ios device
+3. go to product menu at the top of xcode and hit archive
+4. open the directory of the xarchive file in terminal
+5. using xcode make a blank plist file and paste the bottom code to it
+6. name the plist file "exportOptions.plist"
+
+<xml version="1.0" encoding="UTF-8">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>method</key>
+    <string>ad-hoc</string>
+    <key>teamID</key>
+    <string>YOUR_TEAM_ID</string>
+    <key>uploadBitcode</key>
+    <true/>
+    <key>uploadSymbols</key>
+    <true/>
+  </dict>
+</plist>
+
+run this command
+ xcodebuild -exportArchive -archivePath "file name of xarchive file"  -exportPath "anything you want as destination"  -exportOptionsPlist exportOptions.plist 
+
+success!!!!
