@@ -36,7 +36,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?)
     {
         if (keyPath == "estimatedProgress") { // listen to changes and updated view
-            //progressbar.isHidden = web_display.estimatedProgress == 1
+            progressbar.isHidden = web_display.estimatedProgress == 1
             progressbar.setProgress(Float(web_display.estimatedProgress), animated: false)
         }
     }
