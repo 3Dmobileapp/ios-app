@@ -37,18 +37,20 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     {
         if (keyPath == "estimatedProgress") { // listen to changes and updated view
             progressbar.isHidden = web_display.estimatedProgress == 1
-            progressbar.setProgress(Float(web_display.estimatedProgress), animated: false)
+            progressbar.setProgress(Float(web_display.estimatedProgress), animated: true)
         }
     }
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         label.text="finished"
         progressbar.progress=Float(web_display.estimatedProgress)
         indactor.stopAnimating()
+        progressbar.progress=0.0
     }
     func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
+        indactor.startAnimating()
         label.text="start"
         progressbar.progress=Float(web_display.estimatedProgress)
-        indactor.startAnimating()
+        
     }
     
     @IBOutlet weak var foward: UIButton!
