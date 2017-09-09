@@ -22,33 +22,41 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         web_display.uiDelegate = self
         web_display.navigationDelegate = self
         progressbar.progress=0.0
-      
-    web_display.configuration.preferences.javaScriptEnabled = true
-      
+        web_display.addObserver(self, forKeyPath: "estimatedProgress", options: .new, context: nil)
+        
+        web_display.configuration.preferences.javaScriptEnabled = true
+        
     }
     
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?)
+    {
+        if (keyPath == "estimatedProgress") { // listen to changes and updated view
+            //progressbar.isHidden = web_display.estimatedProgress == 1
+            progressbar.setProgress(Float(web_display.estimatedProgress), animated: false)
+        }
+    }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-      label.text="finished"
-       progressbar.progress=Float(web_display.estimatedProgress)
-       indactor.stopAnimating()
+        label.text="finished"
+        progressbar.progress=Float(web_display.estimatedProgress)
+        indactor.stopAnimating()
     }
     func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
         label.text="start"
         progressbar.progress=Float(web_display.estimatedProgress)
         indactor.startAnimating()
     }
-  
+    
     @IBOutlet weak var foward: UIButton!
     @IBOutlet weak var back: UIButton!
     
     @IBAction func foward(_ sender: UIButton) {
         
-       
+        
         web_display.goForward()
     }
     
@@ -67,3 +75,4 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         
     }
 }
+
